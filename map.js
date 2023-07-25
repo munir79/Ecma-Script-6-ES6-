@@ -10,7 +10,7 @@ const all =name1.map(x=>x);
 console.log(all);
 
 
-//2. map i object
+//2. map in object
 const products=[
     {id:2,name:'leptop',price:'10k'},
     {id:3,name:'mobile',price:'20k'},
@@ -21,3 +21,9 @@ const products=[
 const item=products.map(product=>console.log(product));
 const Pname=products.map(pr=>pr.name);
 console.log(Pname);
+
+//3. for each 
+
+const price=products.forEach(pro=>{
+    console.log(pro.price);
+})
