@@ -22,8 +22,8 @@ const item=products.map(product=>console.log(product));
 const Pname=products.map(pr=>pr.name);
 console.log(Pname);
 
-//3. for each 
+// //3. for each 
 
-const price=products.forEach(pro=>{
-    console.log(pro.price);
-})
+// const price=products.forEach(pro=>{
+//     console.log(pro.price);
+// })
